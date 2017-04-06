@@ -41,7 +41,8 @@
         self.cycleView.start() //开始轮播  stop停止轮播
 ```
 # Effects
-带底部文字即实现了DMCycleDataSource的textForRowAt方法
+1. 带底部文字即实现了DMCycleDataSource的textForRowAt方法
 ![image](https://github.com/LuckyCandy/DMCycleView/blob/master/effects.png)
-不带底部文字，可以控制indicator的位置:[left,center,right]
+
+2. 不带底部文字，可以控制indicator的位置:[left,center,right]
 ![image](https://github.com/LuckyCandy/DMCycleView/blob/master/effects1.png)

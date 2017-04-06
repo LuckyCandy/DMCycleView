@@ -32,6 +32,15 @@
     func tapImage(index: Int){}
 ```
 
+4. 最后
+```
+        self.cycleView = DMCycleView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 300), DMCycleViewStyle: .center)
+        self.cycleView.dataSource = self
+        self.cycleView.delegate = self
+        self.view.addSubview(cycleView)
+        self.cycleView.start() //开始轮播  stop停止轮播
+```
 # Effects
 
+![image](https://github.com/LuckyCandy/DMCycleView/blob/master/effects.png)
 
